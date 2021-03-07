@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+.first-row{
+    background: black;
+   
+    color: white;
+}
+.first-row div p{
+    margin-top:10%;
+    margin-bottom:0;
+}
+.first-row div img{
+    display: block;
+    margin: 0 auto;
+}
+
+.second-row{
+         height:450px;
+        
+}
+.second-row {
+    background-image: url("./sell.png");
+    background-attachment: fixed;
+}
+.second-row div{
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+     text-align:center ;
+  
+}
+.second-row div button{
+    background-color: rgb(27, 24, 24);
+    color: white;
+    font-size: 25px;
+    border-style:none ;
+    border-radius: 20px;
+    width: 50%;
+}
+.second-row div button:hover{
+    background-color: gray;
+    color: rgb(27, 24, 24);
+}
+.third-row{
+    color: black;
+      font-size: 45px;
+      font-weight:400;
+    
+}
+.fourth-row{
+    font-size: 20px;
+    color: black;
+    
+
+}
+.fourth-row div,.fifth-row{
+    font-weight: lighter;
+    font-size: 20px;
+}
+.custom{
+    text-align:right ;
+    font-weight: lighter;
+}
+.before-content{
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+}
+.fifth-row{
+ 
+    font-weight:500;
+    line-height: 1.2em;
+}
+.fifth-row div h2{
+    font-size: 45px;
+    font-weight: 400;
+}
+.six-row{
+    font-weight: 400;
+    font-size: 45px;
+}
+.eight-row{
+    font-size: 20px;
+}
+.input-form{
+    border: 0 solid;
+   display: block;
+ font-size:15px;
+   width: 49%;
+    margin-bottom: 20px;
+     border-bottom: 2px solid black;
+}
+.input-form:focus{
+outline: none;
+}
+.input-submit:hover{
+    background-color: gray;
+    color: black;
+}
+.input-submit{
+    color: white;
+    background-color: black;
+}
+.hrtg{
+    width:40%;
+    height: 0px;
+    border:2px solid black;
+    border-bottom: none;
+    margin: 40px auto 0 auto;
+  
+}
